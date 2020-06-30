@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:'grafik-m';
+    src: url(../font/Graphik-Medium.ttf);
+}
+@font-face{
+    font-family:'grafik-r';
+    src: url(../font/Graphik-Regular.woff);
+}
+@font-face{
+    font-family:'theinhardt';
+    src: url(../font/Theinhardt-Lt.woff);
+}
+@font-face{
+    font-family: 'tiempo';
+    src: url(../font/TiemposHeadline-Semibold.woff);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 12%;
+}
+li{
+    padding-right: 20px;
+    font-family:'grafik-r';
+}
+a{
+    text-decoration: none;
+    color: #9FA2A7;
+}
+header h1{
+    font-family: 'tiempo';
+}
+header div{
+    border: solid 2px #848689;
+    border-radius: 5px;
+    padding:3px 40px;
+    font-family: 'grafik-m';
+    color: #3D3E41;
+}
+header div:hover{
+    background: #848689;
+    color: white;
+}
+#hero{
+    margin: 5% 0;
+    text-align: center;
+}
+.pHead{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    font-family:'grafik-r';
+}
+#hero img{
+    width: 100%;
+}
+.art1{
+    display: flex;
+    text-align: left;
+    padding:10% 0 0 7.5%;
+}
+.art1 p:first-of-type{
+    font-family: 'grafik-m';
+    width: 45%;
+    line-height: 1.5em;
+    padding-right: 10%;
+}
+.container{
+    width: 15%;
+}
+.container p:first-child{
+    font-size: 2.5em;
+    columns: #2B2C2E;
+    letter-spacing: 5px;
+}
+.container p:last-child{
+    color:#9FA2A7;
+    font-family: 'theinhardt';
+}
+.art2{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin: 15% 0;
+}
+.hase{
+    width: 50%;
+    background: url(../img/home_deliverables.png)center/contain no-repeat;
+}
+.text{
+    width: 50%;
+    text-align: left;
+}
+.text h1{
+    font-size: 2.5em;
+    font-family: 'Tiempo';
+    padding-bottom: 7%;
+}
+.text h3{
+    font-family: 'grafik-m';
+    padding-bottom: 3%;
+}
+.text p{
+    font-family: 'theinhardt';
+    margin-bottom: 5%;
+    color: #9FA2A7;
+}
+.art3{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    background: #F1F1F4;
+    border-radius: 5px;
+}
+.neben{
+    width: 50%;
+    text-align: left;
+    margin:7% 0 0 5%;
+}
+.how{
+    width: 50%;
+    background: url(../img/home_how_it_works.png)center/contain no-repeat;
+    padding-bottom: 35%;
+}
+.neben h1{
+    font-family: 'Tiempo';
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+.neben ol{
+    padding-left: 5%;
+}
+.neben p,li{
+    color: #3D3E41;
+    font-family: 'Theinhardt';
+}
+#release{
+    width: 85%;
+    margin: 10% auto 10%;
+    position: relative;
+    text-align: center;
+}
+#release h1{
+    font-family: 'Tiempo';
+    font-size: 2.5em;
+}
+#release p:first-of-type{
+    color: #9FA2A7;
+    padding-top: 3%;
+    line-height: 1.5em;
+    font-family: 'theinhardt';
+}
+#release p:last-of-type{
+    color: #9FA2A7;
+    font-family: 'grafik-m';
+    line-height: 1.5em;
+    width: 30%;
+    text-align: left;
+    padding-left: 22%;
+}
+#release img{
+    width: 100%;
+    padding-top:10% ;
+}
+.img2{
+    position: absolute;
+    width: 60%;
+    height: 30vh;
+    background: url(../img/home_conversion.png)center/contain no-repeat;
+    right:0;
+    bottom: -10%;
+}
+.hr{
+    width: 85%;
+    margin: 0 auto;
+}
+.last{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.last h1{
+    font-family: 'Tiempo';
+    margin: 10% 0 5%;
+    font-size: 2.5em;
+}
+.last p{
+    color:#9FA2A7;
+}
+.flex{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: 'grafik-m';
+}
+.flex a{
+    color:#27282A;
+}
